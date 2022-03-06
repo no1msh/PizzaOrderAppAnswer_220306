@@ -20,6 +20,7 @@ class StoreAdapter(
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
+//        다른내용의 주석
         var tempRow = convertView
         if (tempRow == null) {
             tempRow =  LayoutInflater.from(mContext).inflate(R.layout.store_list_item, null)
